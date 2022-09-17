@@ -1,0 +1,77 @@
+.container
+{
+    display: flex;
+    width: 80%;
+    height: 500px;
+    margin: auto;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+#uno,#dos,#tres
+{
+    width: 320px;
+    height: 480px;
+    background-color: lightgray;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10 px #999;
+ }
+
+ #dos
+ {
+    align-self: center;
+ }
+
+ img /* como editar los bordes de las imagenes */
+ {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom: red solid 2px;
+ }
+ p
+ {
+    padding: 10px;
+    text-align: justify;
+ }
+
+ .botonRojo
+ {  
+    background-color: red;
+    border: none;
+    text-decoration: none;
+    text-align: center;
+    font-size: 12px;
+    padding: 15px 32px;/* 15 px de arriba y abajo y 32 px de derecha e izquierda */
+    margin-left: 20px;
+    color: white;
+}
+
+ .botonVerde
+ {
+    margin-left: 15px;
+    background-color: green;
+    border: none;
+    text-decoration: none;
+    text-align: center;
+    font-size: 12px;
+    padding: 15px 32px;/* 15 px de arriba y abajo y 32 px de derecha e izquierda */
+    color: white; 
+}
+
+h1
+{
+    text-align: center;
+}
+
+.botonRojo:hover /* cuando este arriba el cursor */
+ {  
+    background-color: coral;
+    color: blueviolet ;
+    
+}
+
+.botonVerde:hover
+{
+   background-color: lightgreen;
+     color: blueviolet; 
+}
